@@ -5,17 +5,18 @@ function header () {
         <h1>Shi<span class="kelia">kelia</span></h1>
         <nav>
             <ul>
+                
                 <li>
-                    <a href="About Me">About Me</a>
+                    <a href="aboutme.js">About Me</a>
                 </li>
                 <li>
-                    <a href="Work">Work</a>
+                    <a href="portfolio.js">Portfolio</a>
                 </li>
                 <li>
-                    <a href="Contact Me">Contact Me</a>
+                    <a href="contact.js">Contact Me</a>
                 </li>
                 <li>
-                    <a href="Resume">Resume</a>
+                    <a href="resume.js">Resume</a>
                 </li>
             </ul>
             </nav>
