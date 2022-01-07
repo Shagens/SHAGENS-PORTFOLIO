@@ -10,7 +10,7 @@ function aboutme () {
          <div className="twelve columns main-col">
             <img src={profile} className="profile"/>
             <h2>Hello, I'm Shikelia!</h2>
-            <p>I am newly Full Stack Developer.</p>
+            <p>Born and raised in Charlotte, NC. I attended Meredith College and studied Graphic design, now I am newly, a Full Stack Developer!</p>
             <div className="row">
                   
                </div>
