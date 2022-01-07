@@ -101,3 +101,8 @@ a {
   justify-content: space-around;
   width: 30%;
 }
+
+.profile {
+  width: 200px;
+  height: 200px;
+}

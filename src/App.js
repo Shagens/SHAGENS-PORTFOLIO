@@ -1,7 +1,8 @@
+import React, {useState} from "react";
 import './App.css';
 import Aboutme from './componets/aboutme';
 import Header from './componets/header';
-import Nav from './componets/nav';
+// import Nav from './componets/nav';
 import Footer from './componets/footer';
 import Resume from './componets/resume';
 import ContactForm from './componets/contact';
@@ -12,18 +13,18 @@ import Portfolio from './componets/portfolio';
 //   const [currentPage, handlePageChange] = useState('Home');
 
 //   // The renderPage method uses a switch statement to render the appropriate current page
-//   const renderPage = () => {
-//     switch (currentPage) {
-//       case 'Aboutme':
-//         return <Aboutme />;
-//       case 'Portfolio':
-//         return <portfolio />;
-//       case 'ContactForm':
-//         return <contactForm />;
-//       default:
-//         return <Home />;
-//     }
-//   };
+  // const renderPage = () => {
+  //   switch (currentPage) {
+  //     case 'Aboutme':
+  //       return <Aboutme />;
+  //     case 'Portfolio':
+  //       return <portfolio />;
+  //     case 'ContactForm':
+  //       return <contactForm />;
+  //     default:
+  //       return <Home />;
+  //   }
+  // };
 
 //   return (
 //     <div>
@@ -35,15 +36,32 @@ import Portfolio from './componets/portfolio';
 //   );
 // }
 
+
 function App() {
+  const [currentPage, handlePageChange] = useState('Aboutme');
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'Aboutme':
+        return <Aboutme />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contactme':
+        return <ContactForm />;
+        case 'Resume':
+        return <Resume />
+      default:
+        return <Aboutme />;
+    }
+  };
   return (
     <div>
-    <Header/>
-    <Nav/>
-    <Aboutme/>
+    <Header handlePageChange={handlePageChange}/>
+    {/* <Nav/> */}
+    <div>{renderPage(currentPage)}</div>
+    {/* <Aboutme/>
     <Portfolio/>
     <Resume/>
-    <ContactForm/>
+    <ContactForm/> */}
     <Footer/>
     </div>
     

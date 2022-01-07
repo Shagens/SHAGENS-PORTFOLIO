@@ -1,5 +1,6 @@
 import React from "react"
-function header () {
+function header (props) {
+    console.log(props)
     return( 
         <div class="header">
         <h1>Shi<span class="kelia">kelia</span></h1>
@@ -7,16 +8,16 @@ function header () {
             <ul>
                 
                 <li>
-                    <a href="aboutme.js">About Me</a>
+                    <a href="#" onClick={() => props.handlePageChange("Aboutme")}>About Me</a>
                 </li>
                 <li>
-                    <a href="portfolio.js">Portfolio</a>
+                    <a href="#" onClick={() => props.handlePageChange("Portfolio")}>Portfolio</a>
                 </li>
                 <li>
-                    <a href="contact.js">Contact Me</a>
+                    <a href="#" onClick={() => props.handlePageChange("Contactme")}>Contact Me</a>
                 </li>
                 <li>
-                    <a href="resume.js">Resume</a>
+                    <a href="#" onClick={() => props.handlePageChange("Resume")}>Resume</a>
                 </li>
             </ul>
             </nav>
