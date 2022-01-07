@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SHAGENS-PORTFOLIO/static/css/main.b5a50420.css",
-    "main.js": "/SHAGENS-PORTFOLIO/static/js/main.e11848c4.js",
+    "main.js": "/SHAGENS-PORTFOLIO/static/js/main.57572339.js",
     "static/media/Shikelia.jpeg": "/SHAGENS-PORTFOLIO/static/media/Shikelia.0ee0ee18600960ad8bf9.jpeg",
     "index.html": "/SHAGENS-PORTFOLIO/index.html",
     "main.b5a50420.css.map": "/SHAGENS-PORTFOLIO/static/css/main.b5a50420.css.map",
-    "main.e11848c4.js.map": "/SHAGENS-PORTFOLIO/static/js/main.e11848c4.js.map"
+    "main.57572339.js.map": "/SHAGENS-PORTFOLIO/static/js/main.57572339.js.map"
   },
   "entrypoints": [
     "static/css/main.b5a50420.css",
-    "static/js/main.e11848c4.js"
+    "static/js/main.57572339.js"
   ]
 }
