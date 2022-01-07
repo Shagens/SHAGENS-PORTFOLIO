@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SHAGENS-PORTFOLIO/static/css/main.358011e4.css",
+    "main.js": "/SHAGENS-PORTFOLIO/static/js/main.c171c755.js",
+    "index.html": "/SHAGENS-PORTFOLIO/index.html",
+    "main.358011e4.css.map": "/SHAGENS-PORTFOLIO/static/css/main.358011e4.css.map",
+    "main.c171c755.js.map": "/SHAGENS-PORTFOLIO/static/js/main.c171c755.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.358011e4.css",
+    "static/js/main.c171c755.js"
+  ]
+}
