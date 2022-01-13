@@ -7,6 +7,7 @@ function portfolio () {
                 <h3>Deployed Sites</h3>
                 <a href="https://shagens.github.io/New-To-Town/">New To Town!</a>
               <a href="https://electroenthusiast.herokuapp.com/login">Electro Enthusiast!</a>
+              <a href="https://secret-journey-36348.herokuapp.com/">Cupid's Blind Date</a>
                 <p>
                     Some of my work!
                 </p>
